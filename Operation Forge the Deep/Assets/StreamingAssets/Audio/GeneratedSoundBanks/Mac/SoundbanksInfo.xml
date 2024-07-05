@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3657742645" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\General_Soundbank</ObjectPath>
+			<ShortName>General_Soundbank</ShortName>
+			<Path>General_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2057007838" Name="End_level_fail" ObjectPath="\Events\Default Work Unit\End_level_fail" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3041687167" Name="End_level_success" ObjectPath="\Events\Default Work Unit\End_level_success" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1868357982" Name="Get_Star" ObjectPath="\Events\Default Work Unit\Get_Star" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2830026245" Name="Grain_connect" ObjectPath="\Events\Default Work Unit\Grain_connect" DurationType="OneShot" DurationMin="0.187667" DurationMax="0.187667"/>
+				<Event Id="3209390218" Name="Lab_achieve" ObjectPath="\Events\Default Work Unit\Lab_achieve" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3979739288" Name="Large_Splash" ObjectPath="\Events\Default Work Unit\Large_Splash" DurationType="OneShot" DurationMin="3.432917" DurationMax="3.432917"/>
+				<Event Id="3753830904" Name="Login_sound" ObjectPath="\Events\Default Work Unit\Login_sound" DurationType="OneShot" DurationMin="1.815542" DurationMax="1.815542"/>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music" DurationType="Infinite"/>
+				<Event Id="3916068247" Name="S_button" ObjectPath="\Events\Default Work Unit\S_button" DurationType="OneShot" DurationMin="0.409813" DurationMax="0.409813"/>
+				<Event Id="1924885516" Name="Small_splash" ObjectPath="\Events\Default Work Unit\Small_splash" DurationType="OneShot" DurationMin="1.019812" DurationMax="1.019812"/>
+				<Event Id="1233121652" Name="Start_level" ObjectPath="\Events\Default Work Unit\Start_level" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1443575244" Name="Whale_song" ObjectPath="\Events\Default Work Unit\Whale_song" DurationType="OneShot" DurationMin="5.117729" DurationMax="5.117729"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="151931096" Language="SFX">
+					<ShortName>Stinger Assets\level_fail.wav</ShortName>
+					<Path>SFX\Stinger Assets\level_fail_D79FB2B7.wem</Path>
+				</File>
+				<File Id="161860533" Language="SFX">
+					<ShortName>Epipelagic Zone.wav</ShortName>
+					<Path>SFX\Epipelagic Zone_D79FB2B7.wem</Path>
+				</File>
+				<File Id="185195077" Language="SFX">
+					<ShortName>Laboratory.wav</ShortName>
+					<Path>SFX\Laboratory_D79FB2B7.wem</Path>
+				</File>
+				<File Id="236567204" Language="SFX">
+					<ShortName>Stinger Assets\level_start.wav</ShortName>
+					<Path>SFX\Stinger Assets\level_start_D79FB2B7.wem</Path>
+				</File>
+				<File Id="262318562" Language="SFX">
+					<ShortName>Bumper Assets\splash_small.wav</ShortName>
+					<Path>SFX\Bumper Assets\splash_small_10C4C929.wem</Path>
+				</File>
+				<File Id="265288117" Language="SFX">
+					<ShortName>Bathylpelagic Zone.wav</ShortName>
+					<Path>SFX\Bathylpelagic Zone_D79FB2B7.wem</Path>
+				</File>
+				<File Id="276869875" Language="SFX">
+					<ShortName>Bumper Assets\standard_button.wav</ShortName>
+					<Path>SFX\Bumper Assets\standard_button_10C4C929.wem</Path>
+				</File>
+				<File Id="367196670" Language="SFX">
+					<ShortName>Stinger Assets\level_complete.wav</ShortName>
+					<Path>SFX\Stinger Assets\level_complete_D79FB2B7.wem</Path>
+				</File>
+				<File Id="552894834" Language="SFX">
+					<ShortName>Bumper Assets\grain_connection.wav</ShortName>
+					<Path>SFX\Bumper Assets\grain_connection_10C4C929.wem</Path>
+				</File>
+				<File Id="555595944" Language="SFX">
+					<ShortName>Stinger Assets\star_get.wav</ShortName>
+					<Path>SFX\Stinger Assets\star_get_D79FB2B7.wem</Path>
+				</File>
+				<File Id="575423431" Language="SFX">
+					<ShortName>Bumper Assets\splash_large.wav</ShortName>
+					<Path>SFX\Bumper Assets\splash_large_10C4C929.wem</Path>
+				</File>
+				<File Id="598492558" Language="SFX">
+					<ShortName>Main Menu.wav</ShortName>
+					<Path>SFX\Main Menu_D79FB2B7.wem</Path>
+				</File>
+				<File Id="683528511" Language="SFX">
+					<ShortName>Bumper Assets\whale_song.wav</ShortName>
+					<Path>SFX\Bumper Assets\whale_song_10C4C929.wem</Path>
+				</File>
+				<File Id="808702126" Language="SFX">
+					<ShortName>Mesopelagic Zone.wav</ShortName>
+					<Path>SFX\Mesopelagic Zone_D79FB2B7.wem</Path>
+				</File>
+				<File Id="829291057" Language="SFX">
+					<ShortName>Stinger Assets\lab_achieve.wav</ShortName>
+					<Path>SFX\Stinger Assets\lab_achieve_D79FB2B7.wem</Path>
+				</File>
+				<File Id="860164580" Language="SFX">
+					<ShortName>Bumper Assets\login_confirm.wav</ShortName>
+					<Path>SFX\Bumper Assets\login_confirm_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

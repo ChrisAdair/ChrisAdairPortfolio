@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DBD722F6-2EF5-4B72-8381-EC3E8803F9AC}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{DBD722F6-2EF5-4B72-8381-EC3E8803F9AC}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Background" ID="{B54F322A-7343-436D-A849-2F1CE281A8EF}">
+					<ChildrenList>
+						<State Name="None" ID="{FE2B5D91-A249-40CB-9C62-026DA2789F79}"/>
+						<State Name="Mesopelagic_Zone" ID="{FC1DD67B-2652-42D7-9067-C9758C47B9D1}"/>
+						<State Name="Soundless" ID="{4A2BBD0C-91A7-41E6-ABE7-2A32AA30FDEE}"/>
+						<State Name="Bathepelagic_Zone" ID="{F4EA547F-4A1E-409B-A73E-CE627AE39E6A}"/>
+						<State Name="Epipelagic_Zone" ID="{5DE44D48-CE45-4A6B-87D2-11FF6967D4A5}"/>
+						<State Name="Main_Menu" ID="{A6A842A7-27B7-4A1B-A06F-83ACC5A36107}"/>
+						<State Name="Laboratory" ID="{150D1B3F-4BAB-4800-9791-FB2E5F62E5C1}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Main_Menu" ID="{A6A842A7-27B7-4A1B-A06F-83ACC5A36107}"/>
+							<EndState Name="Epipelagic_Zone" ID="{5DE44D48-CE45-4A6B-87D2-11FF6967D4A5}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Main_Menu" ID="{A6A842A7-27B7-4A1B-A06F-83ACC5A36107}"/>
+							<EndState Name="Mesopelagic_Zone" ID="{FC1DD67B-2652-42D7-9067-C9758C47B9D1}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Main_Menu" ID="{A6A842A7-27B7-4A1B-A06F-83ACC5A36107}"/>
+							<EndState Name="Bathepelagic_Zone" ID="{F4EA547F-4A1E-409B-A73E-CE627AE39E6A}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Main_Menu" ID="{A6A842A7-27B7-4A1B-A06F-83ACC5A36107}"/>
+							<EndState Name="Laboratory" ID="{150D1B3F-4BAB-4800-9791-FB2E5F62E5C1}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{FE2B5D91-A249-40CB-9C62-026DA2789F79}"/>
+							<EndState Name="Mesopelagic_Zone" ID="{FC1DD67B-2652-42D7-9067-C9758C47B9D1}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{FE2B5D91-A249-40CB-9C62-026DA2789F79}"/>
+							<EndState Name="Soundless" ID="{4A2BBD0C-91A7-41E6-ABE7-2A32AA30FDEE}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{FE2B5D91-A249-40CB-9C62-026DA2789F79}"/>
+							<EndState Name="Bathepelagic_Zone" ID="{F4EA547F-4A1E-409B-A73E-CE627AE39E6A}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{FE2B5D91-A249-40CB-9C62-026DA2789F79}"/>
+							<EndState Name="Epipelagic_Zone" ID="{5DE44D48-CE45-4A6B-87D2-11FF6967D4A5}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{FE2B5D91-A249-40CB-9C62-026DA2789F79}"/>
+							<EndState Name="Main_Menu" ID="{A6A842A7-27B7-4A1B-A06F-83ACC5A36107}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{FE2B5D91-A249-40CB-9C62-026DA2789F79}"/>
+							<EndState Name="Laboratory" ID="{150D1B3F-4BAB-4800-9791-FB2E5F62E5C1}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

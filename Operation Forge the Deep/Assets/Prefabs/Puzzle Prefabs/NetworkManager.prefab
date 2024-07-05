@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8525592372866645262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8525592372866645259}
+  - component: {fileID: 8525592372866645261}
+  m_Layer: 0
+  m_Name: NetworkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8525592372866645259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8525592372866645262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8525592372866645261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8525592372866645262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3206a4f1e800d0f4a98957e46e643340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NetworkPort: 7777
+  m_ServerBindToIP: 0
+  m_ServerBindAddress: 
+  m_NetworkAddress: localhost
+  m_DontDestroyOnLoad: 0
+  m_RunInBackground: 1
+  m_ScriptCRCCheck: 0
+  m_MaxDelay: 0.01
+  m_LogLevel: 2
+  m_PlayerPrefab: {fileID: 7062305070946223082, guid: 666b9e0e3ac566848ba9e4b5ecb66d6f,
+    type: 3}
+  m_AutoCreatePlayer: 0
+  m_PlayerSpawnMethod: 0
+  m_OfflineScene: 
+  m_OnlineScene: 
+  m_SpawnPrefabs:
+  - {fileID: 1673408332770750, guid: d60fcd8f75b1c43459de1bde0e3ed909, type: 3}
+  - {fileID: 7364456117352874244, guid: c885eb934c386ed408b4098aec51ca62, type: 3}
+  - {fileID: 1098040246287682, guid: 2eacce745dba00d44a90a25bbcbc99ad, type: 3}
+  - {fileID: 1375245407088074, guid: acfed7666489b9744a2197e6b1bb3740, type: 3}
+  - {fileID: 1490331995913188, guid: 415b4bcc4b15afb41b992665e9f39bf3, type: 3}
+  - {fileID: 3296697171837549062, guid: 43f461610119988448561e43c9304217, type: 3}
+  m_CustomConfig: 0
+  m_MaxConnections: 4
+  m_ConnectionConfig:
+    m_PacketSize: 1500
+    m_FragmentSize: 500
+    m_ResendTimeout: 1200
+    m_DisconnectTimeout: 2000
+    m_ConnectTimeout: 2000
+    m_MinUpdateTimeout: 10
+    m_PingTimeout: 500
+    m_ReducedPingTimeout: 100
+    m_AllCostTimeout: 20
+    m_NetworkDropThreshold: 5
+    m_OverflowDropThreshold: 5
+    m_MaxConnectionAttempt: 10
+    m_AckDelay: 33
+    m_SendDelay: 10
+    m_MaxCombinedReliableMessageSize: 100
+    m_MaxCombinedReliableMessageCount: 10
+    m_MaxSentMessageQueueSize: 128
+    m_AcksType: 1
+    m_UsePlatformSpecificProtocols: 0
+    m_InitialBandwidth: 0
+    m_BandwidthPeakFactor: 2
+    m_WebSocketReceiveBufferMaxSize: 0
+    m_UdpSocketReceiveBufferMaxSize: 0
+    m_SSLCertFilePath: 
+    m_SSLPrivateKeyFilePath: 
+    m_SSLCAFilePath: 
+    m_Channels: []
+  m_GlobalConfig:
+    m_ThreadAwakeTimeout: 1
+    m_ReactorModel: 0
+    m_ReactorMaximumReceivedMessages: 1024
+    m_ReactorMaximumSentMessages: 1024
+    m_MaxPacketSize: 2000
+    m_MaxHosts: 16
+    m_ThreadPoolSize: 1
+    m_MinTimerTimeout: 1
+    m_MaxTimerTimeout: 12000
+    m_MinNetSimulatorTimeout: 1
+    m_MaxNetSimulatorTimeout: 12000
+  m_Channels: 0500000000000000
+  m_UseWebSockets: 0
+  m_UseSimulator: 0
+  m_SimulatedLatency: 1
+  m_PacketLossPercentage: 0
+  m_MaxBufferedPackets: 16
+  m_AllowFragmentation: 1
+  m_MatchHost: mm.unet.unity3d.com
+  m_MatchPort: 443
+  matchName: default
+  matchSize: 4
+  isNetworkActive: 0
+  matchMaker: {fileID: 0}
+  GameRoom: {fileID: 0}
+  allSkyboxes:
+  - {fileID: 2100000, guid: fd6b8ab4272b41e4e974a48f8d80b957, type: 2}
+  - {fileID: 2100000, guid: 250f7e27da6ebb24abc5bd30962582d7, type: 2}
+  - {fileID: 2100000, guid: 1f5688ab5010fe5469810c2a0e7ecf35, type: 2}
+  - {fileID: 2100000, guid: 1f5688ab5010fe5469810c2a0e7ecf35, type: 2}
+  allPostProc:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  allCliffPositions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 10.1, y: 63.9, z: 51.1}
+  - {x: 23.1, y: 114.7, z: 20.7}
+  - {x: -27.6, y: 165.8, z: 32.9}
+  backgroundParentObject: {fileID: 0}
+  individualLevelLighting:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  levelFogColors:
+  - {r: 0.50980395, g: 0.72156864, b: 0.81568635, a: 0}
+  - {r: 0.3137255, g: 0.43529415, b: 0.67058825, a: 0}
+  - {r: 0.03529412, g: 0.07058824, b: 0.09411766, a: 1}
+  - {r: 0, g: 0, b: 0, a: 0}
+  CubeMaterials:
+  - {fileID: 2100000, guid: 7765e4972e77bbb46a4f32d7b7430c02, type: 2}
+  - {fileID: 2100000, guid: 001f7293188c57246a47489a33773e99, type: 2}
+  - {fileID: 2100000, guid: 79d8c62663012a24eada0a660296f7b4, type: 2}
+  - {fileID: 2100000, guid: 02528fb17f7b907429e6b747ec95b982, type: 2}
+  EuphoticEnable:
+  - {fileID: 0}
+  - {fileID: 0}
+  EuphoticDisable:
+  - {fileID: 0}
+  - {fileID: 0}
+  DysphoticEnable:
+  - {fileID: 0}
+  - {fileID: 0}
+  DysphoticDisable:
+  - {fileID: 0}
+  - {fileID: 0}
+  AphoticEnable:
+  - {fileID: 0}
+  AphoticDisable:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  LabEnable: []
+  LabDisable: []
+  fogEndDistance:
+  - 120
+  - 110
+  - 70
+  - 70
+  highlightCubeMat:
+  - {fileID: 2100000, guid: 2664e9c1c46e3d74ca22c8b1a619a106, type: 2}
+  - {fileID: 2100000, guid: 84797e8965f1f77469e5f4970d566375, type: 2}
+  - {fileID: 2100000, guid: 84797e8965f1f77469e5f4970d566375, type: 2}
+  - {fileID: 2100000, guid: 84797e8965f1f77469e5f4970d566375, type: 2}
+  zoneSkybox: {fileID: 0}
+  chatRoomName: 
+  singleplayer: 0
+  completedFileStream: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Client.unity
+    guid: 0e99fe7772e673c45bf62f6c82edbd4c
+  - enabled: 1
+    path: Assets/Scenes/GameLevels/In_Game_Puzzle.unity
+    guid: 90624e39b54f6a94e9be499e9bef10b7
+  - enabled: 1
+    path: Assets/Scenes/GameLevels/Tutorial_Level.unity
+    guid: dfc504279037fcd42b35088b672c1b36
+  - enabled: 1
+    path: Assets/Scenes/GameLevels/In_Game_Puzzle_No_Opt.unity
+    guid: 229be6936c8b5e74d891e88ac56585fa
+  - enabled: 1
+    path: Assets/Scenes/GameLevels/TheLab.unity
+    guid: 1aa952feb6b7be44491afb1c7ebe4fb3
+  - enabled: 1
+    path: Assets/Scenes/GameLevels/Raid_Puzzle.unity
+    guid: 1ba905eba25a83a4e97187721887488b
+  - enabled: 0
+    path: Assets/Scenes/Reconstruct Simulation.unity
+    guid: 1f93db0f7251a1840bdc6213e760d109
+  m_configObjects: {}

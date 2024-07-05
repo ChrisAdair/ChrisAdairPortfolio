@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03540430-A83E-47EE-B09C-DD51D95B1A72}" SchemaVersion="94">
+	<Triggers>
+		<WorkUnit Name="Music" ID="{03540430-A83E-47EE-B09C-DD51D95B1A72}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Level_Start" ID="{C7CB4728-A572-4818-8EC5-302F8E607694}"/>
+				<Trigger Name="Level_fail" ID="{B33DE07A-AE55-42BA-BC15-6C302508BEA9}"/>
+				<Trigger Name="Level_success" ID="{A14F133F-D930-4995-BB05-C79F3D2D3CC7}"/>
+				<Trigger Name="Get_Star" ID="{8E7D00EC-1E31-472C-8EB0-A0BDF7A41A3C}"/>
+				<Trigger Name="Lab_access" ID="{B4A5F18E-458C-4DBF-9781-0EA473D7BFF3}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

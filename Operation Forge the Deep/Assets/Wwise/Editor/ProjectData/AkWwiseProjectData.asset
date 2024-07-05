@@ -1,0 +1,392 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f9cc5ab8a110b4ab6af4867a2a3a8e, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 9316d2a6704cbc478b27b28e27f15ca9
+    GuidInternal: 
+    m_lastTime: -8585352245708395552
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 9c2f49fd37bd9d4aa747760652dc4587
+    GuidInternal: 
+    m_lastTime: -8585352245733216943
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 1429e634c9e12941af6870a06d599f02
+    GuidInternal: 
+    m_lastTime: -8585352245708435435
+    List:
+    - name: General_Soundbank
+      guid: cfdc6f1ead9b9341a3e405b668388f22
+      id: 3657742645
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General_Soundbank
+        ObjectType: 7
+      Path: Default Work Unit\General_Soundbank
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 57324329ff15de469b2640d824f6e928
+    GuidInternal: 
+    m_lastTime: -8585352245766896980
+    List:
+    - name: End_level_fail
+      guid: a33c40489c03b64daa911f3a6baf69c1
+      id: 2057007838
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: End_level_fail
+        ObjectType: 3
+      Path: Default Work Unit\End_level_fail
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: End_level_success
+      guid: 70a4fe4a7d9cbc45b5a8cd6306503f98
+      id: 3041687167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: End_level_success
+        ObjectType: 3
+      Path: Default Work Unit\End_level_success
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Get_Star
+      guid: 24ef25554df88e498917ad1af7d36f3b
+      id: 1868357982
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Get_Star
+        ObjectType: 3
+      Path: Default Work Unit\Get_Star
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Grain_connect
+      guid: 618db343b6a7044ab4807f4ba92bdef2
+      id: 2830026245
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Grain_connect
+        ObjectType: 3
+      Path: Default Work Unit\Grain_connect
+      maxAttenuation: 0
+      maxDuration: 0.187667
+      minDuration: 0.187667
+    - name: Lab_achieve
+      guid: 993b4319f579b64aa10b08003493b6a1
+      id: 3209390218
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Lab_achieve
+        ObjectType: 3
+      Path: Default Work Unit\Lab_achieve
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Large_Splash
+      guid: 10f972cb98eeb44383ebc29560a7417c
+      id: 3979739288
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Large_Splash
+        ObjectType: 3
+      Path: Default Work Unit\Large_Splash
+      maxAttenuation: 0
+      maxDuration: 3.432917
+      minDuration: 3.432917
+    - name: Login_sound
+      guid: 78021d02531bf748bc45b433e50b8a55
+      id: 3753830904
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Login_sound
+        ObjectType: 3
+      Path: Default Work Unit\Login_sound
+      maxAttenuation: 0
+      maxDuration: 1.815542
+      minDuration: 1.815542
+    - name: Metal_break
+      guid: 51d14d37706da2499b9ea2f73931b0e5
+      id: 2731087942
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Metal_break
+        ObjectType: 3
+      Path: Default Work Unit\Metal_break
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Metal_creak
+      guid: f101dc59614866459523175c9a550c06
+      id: 602565111
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Metal_creak
+        ObjectType: 3
+      Path: Default Work Unit\Metal_creak
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Metal_stress
+      guid: 2c12a5ed7f2eab4ca4e6952410f22a53
+      id: 1252888909
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Metal_stress
+        ObjectType: 3
+      Path: Default Work Unit\Metal_stress
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: afde75ac919d27429a8d10238effddc3
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: S_button
+      guid: 1e1a9de3c6c6ce41894ab2489fac7740
+      id: 3916068247
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: S_button
+        ObjectType: 3
+      Path: Default Work Unit\S_button
+      maxAttenuation: 0
+      maxDuration: 0.409813
+      minDuration: 0.409813
+    - name: Small_splash
+      guid: ce7d6a376b166d4c9bb852f1ecafbe8d
+      id: 1924885516
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Small_splash
+        ObjectType: 3
+      Path: Default Work Unit\Small_splash
+      maxAttenuation: 0
+      maxDuration: 1.019812
+      minDuration: 1.019812
+    - name: Start_level
+      guid: 2a300866843e8f47b063f832763bba16
+      id: 1233121652
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Start_level
+        ObjectType: 3
+      Path: Default Work Unit\Start_level
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Whale_song
+      guid: 2a554e0a4e096148b689adb274112b1b
+      id: 1443575244
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Whale_song
+        ObjectType: 3
+      Path: Default Work Unit\Whale_song
+      maxAttenuation: 0
+      maxDuration: 5.117729
+      minDuration: 5.117729
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 5c8b70a06921684190b8bfe9c308cb6c
+    GuidInternal: 
+    m_lastTime: -8585325401062320790
+    List:
+    - name: MusicParam
+      guid: cb67a0dde20b7f4faa5e8babdec62609
+      id: 3335592545
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicParam
+        ObjectType: 13
+      Path: Default Work Unit\MusicParam
+    - name: SFXParam
+      guid: dbd538b1c34d1c4aa059db231b8bf9da
+      id: 122009065
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFXParam
+        ObjectType: 13
+      Path: Default Work Unit\SFXParam
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f622d7dbf52e724b8381ec3e8803f9ac
+    GuidInternal: 
+    m_lastTime: -8585352245708425501
+    List:
+    - name: Background
+      guid: 2a324fb543736d43a8492f1ce281a8ef
+      id: 3650723969
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Background
+        ObjectType: 9
+      Path: Default Work Unit\Background
+      values:
+      - name: Bathepelagic_Zone
+        guid: 7f54eaf41e4a9b40a73ece627ae39e6a
+        id: 532865659
+        PathAndIcons:
+        - ElementName: Bathepelagic_Zone
+          ObjectType: 8
+      - name: Epipelagic_Zone
+        guid: 484de45d45ce6b4a87d211ff6967d4a5
+        id: 2480548515
+        PathAndIcons:
+        - ElementName: Epipelagic_Zone
+          ObjectType: 8
+      - name: Laboratory
+        guid: 3f1b0d15ab4b00489791fb2e5f62e5c1
+        id: 766371778
+        PathAndIcons:
+        - ElementName: Laboratory
+          ObjectType: 8
+      - name: Main_Menu
+        guid: a742a8a6b7271b4aa06f83acc5a36107
+        id: 2005704188
+        PathAndIcons:
+        - ElementName: Main_Menu
+          ObjectType: 8
+      - name: Mesopelagic_Zone
+        guid: 7bd61dfc5226d7429067c9758c47b9d1
+        id: 832480769
+        PathAndIcons:
+        - ElementName: Mesopelagic_Zone
+          ObjectType: 8
+      - name: None
+        guid: 915d2bfe49a2cb409c62026da2789f79
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Soundless
+        guid: 0cbd2b4aa791e641abe72a32aa30fdee
+        id: 3557621861
+        PathAndIcons:
+        - ElementName: Soundless
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: b480380d69a16b4b80567e62d2743424
+    GuidInternal: 
+    m_lastTime: -8585352245708415605
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 1a711e78ac8b434f829da7224aecdc0e
+    GuidInternal: 
+    m_lastTime: -8585352245708405634
+    List: []
+  - PhysicalPath: Triggers\Music.wwu
+    ParentPhysicalPath: 
+    guid: 300454033ea8ee47b09cdd51d95b1a72
+    GuidInternal: 
+    m_lastTime: -8585352245708405634
+    List:
+    - name: Get_Star
+      guid: ec007d8e311e2c478eb0a0bdf7a41a3c
+      id: 1868357982
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Get_Star
+        ObjectType: 14
+      Path: Music\Get_Star
+    - name: Lab_access
+      guid: 8ef1a5b48c45bf4d97810ea473d7bff3
+      id: 1446289059
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Lab_access
+        ObjectType: 14
+      Path: Music\Lab_access
+    - name: Level_fail
+      guid: 7ae03db355aeba42bc156c302508bea9
+      id: 2757408716
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Level_fail
+        ObjectType: 14
+      Path: Music\Level_fail
+    - name: Level_Start
+      guid: 2847cbc772a518488ec5302f8e607694
+      id: 352576276
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Level_Start
+        ObjectType: 14
+      Path: Music\Level_Start
+    - name: Level_success
+      guid: 3f134fa130d99549bb05c79f3d2d3cc7
+      id: 3852177649
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Level_success
+        ObjectType: 14
+      Path: Music\Level_success
+  ExpandedItems:
+  - /Codename - GRAINS Multiplayer_WwiseProject
+  - /Codename - GRAINS Multiplayer_WwiseProject/Events
+  - /Codename - GRAINS Multiplayer_WwiseProject/SoundBanks
+  - /Codename - GRAINS Multiplayer_WwiseProject/SoundBanks/Default Work Unit
+  - /Codename - GRAINS Multiplayer_WwiseProject/States
+  - /Codename - GRAINS Multiplayer_WwiseProject/States/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

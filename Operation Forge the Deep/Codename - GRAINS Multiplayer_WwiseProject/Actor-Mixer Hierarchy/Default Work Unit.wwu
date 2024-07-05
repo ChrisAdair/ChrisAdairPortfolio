@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5DFB2FCA-D8D2-4B29-BEE8-C00534EFA53F}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{5DFB2FCA-D8D2-4B29-BEE8-C00534EFA53F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Bumper Assets" ID="{E4971570-BC98-4561-B517-46DF3B0C06AF}" ShortID="160992686">
+					<ChildrenList>
+						<Sound Name="grain_connection" ID="{64E7B567-9FE6-4E8A-8BFB-C582980E1386}" ShortID="863990920">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{66CC42E7-3B97-4D9A-9906-7C99DAAB4475}" ShortID="61997480">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXParam" ID="{B138D5DB-4DC3-4A1C-A059-DB231B8BF9DA}" WorkUnitID="{A0708B5C-2169-4168-90B8-BFE9C308CB6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{9392B656-1F99-4B43-8DEC-EA5CE8173606}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E1E3FD8A-0391-45E1-83E1-AD263E7C687C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD492F9C-BD37-4A9D-A747-760652DC4587}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="grain_connection" ID="{F8E5802A-699E-4C2C-A798-C650F9E9E476}" ShortID="552894834">
+									<Language>SFX</Language>
+									<AudioFile>Bumper Assets\grain_connection.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="grain_connection" ID="{F8E5802A-699E-4C2C-A798-C650F9E9E476}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="lobby_join" ID="{A930EFCA-75B9-408E-88D6-24C19E9EA04E}" ShortID="917041798">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{E05F2457-87F7-4F0C-8831-AC6F26E9FD2C}" ShortID="328307423">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXParam" ID="{B138D5DB-4DC3-4A1C-A059-DB231B8BF9DA}" WorkUnitID="{A0708B5C-2169-4168-90B8-BFE9C308CB6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{DFAF6C35-E8AD-440A-8549-FE9482FF6697}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E1E3FD8A-0391-45E1-83E1-AD263E7C687C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD492F9C-BD37-4A9D-A747-760652DC4587}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="lobby_join" ID="{FCE4A5D4-BC64-4163-8C8A-0608CEB3FD9F}" ShortID="1040575318">
+									<Language>SFX</Language>
+									<AudioFile>Bumper Assets\lobby_join.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="lobby_join" ID="{FCE4A5D4-BC64-4163-8C8A-0608CEB3FD9F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="login_confirm" ID="{3095CDFE-484A-44DB-B432-15B6465BD167}" ShortID="716330698">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{AAC81B7D-A4E3-4A1C-BF66-A77BA8735B0C}" ShortID="3509889">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXParam" ID="{B138D5DB-4DC3-4A1C-A059-DB231B8BF9DA}" WorkUnitID="{A0708B5C-2169-4168-90B8-BFE9C308CB6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{1864DCCB-A254-44B3-B1DC-7DE2690E611F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E1E3FD8A-0391-45E1-83E1-AD263E7C687C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD492F9C-BD37-4A9D-A747-760652DC4587}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="login_confirm" ID="{9E5671AE-F622-4DDE-8EED-0CCBFDD60A43}" ShortID="860164580">
+									<Language>SFX</Language>
+									<AudioFile>Bumper Assets\login_confirm.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="login_confirm" ID="{9E5671AE-F622-4DDE-8EED-0CCBFDD60A43}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="metal_break" ID="{B7E48D07-9BF7-47CA-ADE2-4C74D09323C0}" ShortID="645174707">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{A3996BAE-34CA-49B1-87AA-C1CEE277D4DC}" ShortID="631340820">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXParam" ID="{B138D5DB-4DC3-4A1C-A059-DB231B8BF9DA}" WorkUnitID="{A0708B5C-2169-4168-90B8-BFE9C308CB6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4BE4726F-8908-455A-97AC-8BB01F04DF3A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E1E3FD8A-0391-45E1-83E1-AD263E7C687C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD492F9C-BD37-4A9D-A747-760652DC4587}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="metal_break" ID="{6ADE5A5B-BE2D-4FFF-AFA4-3CBD969F96B5}" ShortID="501908626">
+									<Language>SFX</Language>
+									<AudioFile>Bumper Assets\metal_break.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="metal_break" ID="{6ADE5A5B-BE2D-4FFF-AFA4-3CBD969F96B5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="metal_creak" ID="{4F2F1485-1ABA-4560-B35E-25CC9D109221}" ShortID="638456232">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{F9546C77-C5D0-4367-A3E7-67F3BDF49C1F}" ShortID="531588440">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXParam" ID="{B138D5DB-4DC3-4A1C-A059-DB231B8BF9DA}" WorkUnitID="{A0708B5C-2169-4168-90B8-BFE9C308CB6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B31E333B-6AFC-4798-BAD7-40B988255C2F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E1E3FD8A-0391-45E1-83E1-AD263E7C687C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD492F9C-BD37-4A9D-A747-760652DC4587}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="metal_creak" ID="{B8D201F9-EA18-4DEF-AC27-FA27B63EE106}" ShortID="4724861">
+									<Language>SFX</Language>
+									<AudioFile>Bumper Assets\metal_creak.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="metal_creak" ID="{B8D201F9-EA18-4DEF-AC27-FA27B63EE106}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="metal_stress" ID="{26630EDD-7851-4FF1-A101-784784578A05}" ShortID="22162077">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{BB2AFAA4-0666-48E4-AE12-6913F8A4C687}" ShortID="100784573">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXParam" ID="{B138D5DB-4DC3-4A1C-A059-DB231B8BF9DA}" WorkUnitID="{A0708B5C-2169-4168-90B8-BFE9C308CB6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{EDDE15CF-B2E1-4B0D-996F-5D65BE21D338}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E1E3FD8A-0391-45E1-83E1-AD263E7C687C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD492F9C-BD37-4A9D-A747-760652DC4587}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="metal_stress" ID="{5E7D2632-07D1-49AB-8F52-EA59D6FA41C2}" ShortID="144779063">
+									<Language>SFX</Language>
+									<AudioFile>Bumper Assets\metal_stress.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="metal_stress" ID="{5E7D2632-07D1-49AB-8F52-EA59D6FA41C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="optimization_complete" ID="{B2053359-432E-462D-8B74-A80A8F063577}" ShortID="320735701">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{74178CCD-B13E-4BE0-91B2-3563E1FF9121}" ShortID="708370205">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXParam" ID="{B138D5DB-4DC3-4A1C-A059-DB231B8BF9DA}" WorkUnitID="{A0708B5C-2169-4168-90B8-BFE9C308CB6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6FA6E3A3-4114-4683-BC25-DDBB6DDA06F7}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E1E3FD8A-0391-45E1-83E1-AD263E7C687C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD492F9C-BD37-4A9D-A747-760652DC4587}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="optimization_complete" ID="{09273339-87DF-4CA8-8D6D-6B4F36617876}" ShortID="265947932">
+									<Language>SFX</Language>
+									<AudioFile>Bumper Assets\optimization_complete.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="optimization_complete" ID="{09273339-87DF-4CA8-8D6D-6B4F36617876}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="splash_large" ID="{ACBD610F-E472-4A7F-935B-DB2FD4AA3113}" ShortID="853831683">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{6A777F66-5AAE-4C24-A299-18158F8B4545}" ShortID="729921750">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXParam" ID="{B138D5DB-4DC3-4A1C-A059-DB231B8BF9DA}" WorkUnitID="{A0708B5C-2169-4168-90B8-BFE9C308CB6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C01E0BD1-58B2-41C3-8B8C-8EB07F17958D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E1E3FD8A-0391-45E1-83E1-AD263E7C687C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD492F9C-BD37-4A9D-A747-760652DC4587}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="splash_large" ID="{F413B410-8CA8-435D-B822-D34F8BEF9034}" ShortID="575423431">
+									<Language>SFX</Language>
+									<AudioFile>Bumper Assets\splash_large.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="splash_large" ID="{F413B410-8CA8-435D-B822-D34F8BEF9034}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="splash_small" ID="{F9AF82A9-6AEF-4FF9-8A6B-670454DDC4EA}" ShortID="257629012">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{78D141C8-215E-44F5-9C97-FC709C74AD8B}" ShortID="501334050">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXParam" ID="{B138D5DB-4DC3-4A1C-A059-DB231B8BF9DA}" WorkUnitID="{A0708B5C-2169-4168-90B8-BFE9C308CB6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{FA64BFEA-A073-46DB-8C36-E3EDB0E78CFE}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E1E3FD8A-0391-45E1-83E1-AD263E7C687C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD492F9C-BD37-4A9D-A747-760652DC4587}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="splash_small" ID="{B515214E-D80D-4B19-9085-37935DF608FF}" ShortID="262318562">
+									<Language>SFX</Language>
+									<AudioFile>Bumper Assets\splash_small.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="splash_small" ID="{B515214E-D80D-4B19-9085-37935DF608FF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="standard_button" ID="{5DD9D7BE-4FBD-415B-A5B7-1179681F8727}" ShortID="204042504">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{13BD84D3-F308-462C-A113-2B02502EF0E2}" ShortID="59910748">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXParam" ID="{B138D5DB-4DC3-4A1C-A059-DB231B8BF9DA}" WorkUnitID="{A0708B5C-2169-4168-90B8-BFE9C308CB6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{02552784-DFAE-482B-B841-5D03DD03C213}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E1E3FD8A-0391-45E1-83E1-AD263E7C687C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD492F9C-BD37-4A9D-A747-760652DC4587}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="standard_button" ID="{17516B51-0777-4B3A-9C30-97FADE20CF53}" ShortID="276869875">
+									<Language>SFX</Language>
+									<AudioFile>Bumper Assets\standard_button.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="standard_button" ID="{17516B51-0777-4B3A-9C30-97FADE20CF53}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="whale_song" ID="{FB297934-B870-498D-8A7D-23B7905FFA9B}" ShortID="556117811">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{C047ADB2-D0A3-4DFA-955E-CAF618E1043F}" ShortID="920380410">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXParam" ID="{B138D5DB-4DC3-4A1C-A059-DB231B8BF9DA}" WorkUnitID="{A0708B5C-2169-4168-90B8-BFE9C308CB6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{66C22F84-15B5-45B4-91B8-DD1CC3840537}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E1E3FD8A-0391-45E1-83E1-AD263E7C687C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FD492F9C-BD37-4A9D-A747-760652DC4587}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="whale_song" ID="{4540332F-47DA-402C-8FDB-8DEB1832AB3B}" ShortID="683528511">
+									<Language>SFX</Language>
+									<AudioFile>Bumper Assets\whale_song.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="whale_song" ID="{4540332F-47DA-402C-8FDB-8DEB1832AB3B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

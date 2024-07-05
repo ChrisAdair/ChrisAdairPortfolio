@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 513a57f31d7d38d4e90e069f48196e7a, type: 3}
+  m_Name: 376A7DCE-166B-4C6D-9BB8-52F1ECAFBE8D
+  m_EditorClassIdentifier: 
+  objectName: Small_splash
+  id: 1924885516
+  guid: 376A7DCE-166B-4C6D-9BB8-52F1ECAFBE8D

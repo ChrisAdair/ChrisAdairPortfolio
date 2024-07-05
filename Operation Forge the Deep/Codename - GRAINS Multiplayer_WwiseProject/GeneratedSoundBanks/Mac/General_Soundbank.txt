@@ -1,0 +1,55 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1233121652	Start_level			\Default Work Unit\Start_level	
+	1443575244	Whale_song			\Default Work Unit\Whale_song	
+	1868357982	Get_Star			\Default Work Unit\Get_Star	
+	1924885516	Small_splash			\Default Work Unit\Small_splash	
+	2057007838	End_level_fail			\Default Work Unit\End_level_fail	
+	2830026245	Grain_connect			\Default Work Unit\Grain_connect	
+	3041687167	End_level_success			\Default Work Unit\End_level_success	
+	3209390218	Lab_achieve			\Default Work Unit\Lab_achieve	
+	3753830904	Login_sound			\Default Work Unit\Login_sound	
+	3916068247	S_button			\Default Work Unit\S_button	
+	3979739288	Large_Splash			\Default Work Unit\Large_Splash	
+	3991942870	Music			\Default Work Unit\Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3650723969	Background			\Default Work Unit\Background	
+
+State	ID	Name	State Group			Notes
+	0	None	Background			
+	532865659	Bathepelagic_Zone	Background			
+	766371778	Laboratory	Background			
+	832480769	Mesopelagic_Zone	Background			
+	2005704188	Main_Menu	Background			
+	2480548515	Epipelagic_Zone	Background			
+	3557621861	Soundless	Background			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	122009065	SFXParam			\Default Work Unit\SFXParam	
+	3335592545	MusicParam			\Default Work Unit\MusicParam	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	352576276	Level_Start			\Music\Level_Start	
+	1446289059	Lab_access			\Music\Lab_access	
+	1868357982	Get_Star			\Music\Get_Star	
+	2757408716	Level_fail			\Music\Level_fail	
+	3852177649	Level_success			\Music\Level_success	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	151931096	level_fail	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Stinger Assets\level_fail_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Stinger Assets\level_fail\level_fail		822920
+	161860533	Epipelagic Zone	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Epipelagic Zone_D79FB2B7.wem		\Interactive Music Hierarchy\Music\BackgroundMusic\Epi_Zone\Epipelagic Zone\Epipelagic Zone		23040064
+	185195077	Laboratory	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Laboratory_D79FB2B7.wem		\Interactive Music Hierarchy\Music\BackgroundMusic\Lab_Zone\Laboratory\Laboratory		18761208
+	236567204	level_start	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Stinger Assets\level_start_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Stinger Assets\level_start\level_start		822924
+	262318562	splash_small	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Bumper Assets\splash_small_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bumper Assets\splash_small		195868
+	265288117	Bathylpelagic Zone	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Bathylpelagic Zone_D79FB2B7.wem		\Interactive Music Hierarchy\Music\BackgroundMusic\Bath_Zone\Bathylpelagic Zone\Bathylpelagic Zone		17698960
+	276869875	standard_button	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Bumper Assets\standard_button_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bumper Assets\standard_button		78748
+	367196670	level_complete	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Stinger Assets\level_complete_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Stinger Assets\level_complete\level_complete		1545028
+	552894834	grain_connection	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Bumper Assets\grain_connection_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bumper Assets\grain_connection		36096
+	555595944	star_get	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Stinger Assets\star_get_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Stinger Assets\star_get\star_get		329208
+	575423431	splash_large	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Bumper Assets\splash_large_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bumper Assets\splash_large		659184
+	598492558	Main Menu	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Main Menu_D79FB2B7.wem		\Interactive Music Hierarchy\Music\BackgroundMusic\Main_Menu\Main Menu\Main Menu		13165776
+	683528511	whale_song	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Bumper Assets\whale_song_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bumper Assets\whale_song		982668
+	808702126	Mesopelagic Zone	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Mesopelagic Zone_D79FB2B7.wem		\Interactive Music Hierarchy\Music\BackgroundMusic\Mezo_Zone\Mesopelagic Zone\Mesopelagic Zone		20736064
+	829291057	lab_achieve	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Stinger Assets\lab_achieve_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Stinger Assets\lab_achieve\lab_achieve		658348
+	860164580	login_confirm	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Bumper Assets\login_confirm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bumper Assets\login_confirm		348648
+

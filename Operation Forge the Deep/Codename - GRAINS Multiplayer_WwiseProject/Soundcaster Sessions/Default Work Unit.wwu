@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3AD896A3-CAB1-4597-8AF2-682DCBEE79F2}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{3AD896A3-CAB1-4597-8AF2-682DCBEE79F2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{28319ADB-BCA0-45D8-9575-2679608B3F7A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Epi_Zone" ID="{D4DDBC2D-CBD2-4E71-BAC7-D9B2B04BBB20}" WorkUnitID="{B5FD0E12-91A2-4D3C-81FF-06912D5E3A8A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="End_level_fail" ID="{48403CA3-039C-4DB6-AA91-1F3A6BAF69C1}" WorkUnitID="{29433257-15FF-46DE-9B26-40D824F6E928}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="End_level_success" ID="{4AFEA470-9C7D-45BC-B5A8-CD6306503F98}" WorkUnitID="{29433257-15FF-46DE-9B26-40D824F6E928}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Get_Star" ID="{5525EF24-F84D-498E-8917-AD1AF7D36F3B}" WorkUnitID="{29433257-15FF-46DE-9B26-40D824F6E928}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SFXParam" ID="{B138D5DB-4DC3-4A1C-A059-DB231B8BF9DA}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicParam" ID="{DDA067CB-0BE2-4F7F-AA5E-8BABDEC62609}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Epipelagic_Zone" ID="{5DE44D48-CE45-4A6B-87D2-11FF6967D4A5}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3650723969	Background			\Default Work Unit\Background	
+
+State	ID	Name	State Group			Notes
+	0	None	Background			
+	532865659	Bathepelagic_Zone	Background			
+	766371778	Laboratory	Background			
+	832480769	Mesopelagic_Zone	Background			
+	2005704188	Main_Menu	Background			
+	2480548515	Epipelagic_Zone	Background			
+	3557621861	Soundless	Background			
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	352576276	Level_Start			\Music\Level_Start	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	161860533	Epipelagic Zone	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Epipelagic Zone_D79FB2B7.wem		\Interactive Music Hierarchy\Music\BackgroundMusic\Epi_Zone\Epipelagic Zone\Epipelagic Zone		23040064
+	185195077	Laboratory	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Laboratory_D79FB2B7.wem		\Interactive Music Hierarchy\Music\BackgroundMusic\Lab_Zone\Laboratory\Laboratory		18761208
+	236567204	level_start	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Stinger Assets\level_start_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Stinger Assets\level_start\level_start		822924
+	265288117	Bathylpelagic Zone	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Bathylpelagic Zone_D79FB2B7.wem		\Interactive Music Hierarchy\Music\BackgroundMusic\Bath_Zone\Bathylpelagic Zone\Bathylpelagic Zone		17698960
+	598492558	Main Menu	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Main Menu_D79FB2B7.wem		\Interactive Music Hierarchy\Music\BackgroundMusic\Main_Menu\Main Menu\Main Menu		13165776
+	808702126	Mesopelagic Zone	C:\Users\Adair\Documents\Codename - GRAINS Multiplayer\Codename - GRAINS Multiplayer_WwiseProject\.cache\Mac\SFX\Mesopelagic Zone_D79FB2B7.wem		\Interactive Music Hierarchy\Music\BackgroundMusic\Mezo_Zone\Mesopelagic Zone\Mesopelagic Zone		20736064
+

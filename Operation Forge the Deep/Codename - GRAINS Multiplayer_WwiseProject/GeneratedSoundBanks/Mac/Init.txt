@@ -1,0 +1,19 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3650723969	Background			\Default Work Unit\Background	
+
+State	ID	Name	State Group			Notes
+	0	None	Background			
+	532865659	Bathepelagic_Zone	Background			
+	766371778	Laboratory	Background			
+	832480769	Mesopelagic_Zone	Background			
+	2005704188	Main_Menu	Background			
+	2480548515	Epipelagic_Zone	Background			
+	3557621861	Soundless	Background			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
