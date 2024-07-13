@@ -20,3 +20,8 @@ This game was built using Unity, though extensive edits needed to be made to ach
 
 ## Machine learning through Decision Transformers
 
+ML model modified from Decision Transformer and Multi-Game Decision Transformer to be trained on data gathered from [Operation: Forge the Deep](https://store.steampowered.com/app/2053100/Operation_Forge_the_Deep/). This model was made using PyTorch, and analyzed using Matlab.
+
+Details on model performance can be found in "A Decision Transformer Approach to GBN Optimization", which is currently under peer-review.
+
+The model is capable of playing Operation: Forge the Deep, without further player input.
