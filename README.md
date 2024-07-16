@@ -5,7 +5,7 @@ I was the team lead and head developer of the video game [Operation: Forge the D
 
 ![Screenshot of Operation: Forge the Deep](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2053100/ss_691e2ef49fdc7ed965ec7fce5c091c8d65a876b8.1920x1080.jpg)
 
-This game was built using Unity, though extensive edits needed to be made to acheive the project goals. I implemented the following personally:
+This game was built using Unity. Highlights of my contributions include:
 - UDP networking for multiplayer functionality
   - Unity deprecated multiplayer code during the development, therefore a replacement was implemented
   - Lobby and matchmaking implementations
@@ -24,4 +24,4 @@ ML model modified from Decision Transformer and Multi-Game Decision Transformer 
 
 Details on model performance can be found in "A Decision Transformer Approach to GBN Optimization", which is currently under peer-review.
 
-The model is capable of playing Operation: Forge the Deep, without further player input.
+The model is capable of solving the same puzzles as in Operation: Forge the Deep, with similar performance to the median player.
