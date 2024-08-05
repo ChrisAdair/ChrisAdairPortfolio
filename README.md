@@ -25,3 +25,7 @@ ML model modified from Decision Transformer and Multi-Game Decision Transformer 
 Details on model performance can be found in "A Decision Transformer Approach to GBN Optimization", which is currently under peer-review.
 
 The model is capable of solving the same puzzles as in Operation: Forge the Deep, with similar performance to the median player.
+
+## Test driven development of Physics Engine and Game Engine
+
+"Physics and Engine from Scratch" includes examples of my TDD coding work, as well as simple implementations of physics collisions from scratch and simulation coding.
