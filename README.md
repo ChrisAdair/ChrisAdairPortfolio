@@ -28,4 +28,4 @@ The model is capable of solving the same puzzles as in Operation: Forge the Deep
 
 ## Test driven development of Physics Engine and Game Engine
 
-"Physics and Engine from Scratch" includes examples of my TDD coding work, as well as simple implementations of physics collisions from scratch and simulation coding.
+"Physics and Engine from Scratch" includes examples of my TDD coding work, as well as simple implementations of physics collisions from scratch and simulation coding in Open Scene Graph.
