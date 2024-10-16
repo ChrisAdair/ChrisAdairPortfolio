@@ -35,4 +35,4 @@ The model is capable of solving the same puzzles as in Operation: Forge the Deep
 In addition to software, I have also designed multiple mechanical systems and products. One example is a student project for a marble track system meant for aesthetic task timing.
 ![Rendering of Marble Pomodoro Timer](/HQRender576Proj2.png)
 
-My contributions to this product were in opportunity definition, concept selection, CAD drawings, STL files for manufacturing, and prototype assembly. This project was also completed during the onset of COVID-19 lockdowns, which necessitated the use of remote collaboration tools such as [OnShape](https://www.onshape.com/en/) to achieve progress.
+My contributions to this product were in opportunity definition, concept selection, CAD drawings, GD&T for marble dispensing, STL files for manufacturing, and prototype assembly. This project was also completed during the onset of COVID-19 lockdowns, which necessitated the use of remote collaboration tools such as [OnShape](https://www.onshape.com/en/) to achieve progress.
